@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node ./test-sync.ts"
+    "start": "ts-node ./test-sync.ts",
+    "start-1": "ts-node ./test-sync-automerge-1.ts"
   },
   "author": "",
   "license": "MIT",
@@ -13,6 +14,7 @@
     "typescript": "^4.9.4"
   },
   "dependencies": {
-    "@automerge/automerge": "^2.0.1-alpha.2"
+    "@automerge/automerge": "^2.0.1-alpha.2",
+    "automerge": "^1.0.1-preview.7"
   }
 }
